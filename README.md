@@ -50,5 +50,5 @@ I am a first year web developer student, i am not good in coding but i am very i
 
 ## Fun Fact
 
-i choose this course because i want to make my own app with my own design and my own rules with a unique parts. I know coding is not easy but i am willing to learn everyting. 
+i choose this course because i want to make my own app with my own design and my own rules. I know coding is not easy but i am willing to learn everyting. 
 
