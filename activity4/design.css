@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(241, 230, 231);
+}
+h1{
+    font-family: Times New Roman;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(109, 47, 57)
+}
+h2{
+    font-family: Times New Roman;
+    color: rgb(109, 47, 57)
+}
+h3{
+    font-family: Times New Roman;
+    font-style: italic;
+    color: rgb(109, 47, 57)
+}
+
+a{ 
+    color: rgb(201, 82, 102)
+}
+
+p{
+     color: rgb(201, 82, 102)
+}
+
+li{
+     color: rgb(201, 82, 102)
+}
+
+strong{
+    font-family: Times New Roman;
+    color: rgb(109, 47, 57)
+}
+
+img{
+    border: 5px double rgb(109, 47, 57);
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: 550;
+     color: rgb(201, 82, 102)
+}
+table{
+    font-family: Times New Roman;
+}
+
+th, td {
+  border: 1px solid rgb(109, 47, 57);
+  padding: 8px;             
+  text-align: center;    
+  background-color:  rgb(255, 216, 222) ;     
+}
+
+form{
+    font-weight: 700;
+    color:  rgb(109, 47, 57) ;     
+}
+
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #be7777;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: rgb(109, 47, 57); 
+  color: #ffffff;           
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+
+
+
