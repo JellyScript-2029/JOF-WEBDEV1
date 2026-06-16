@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 3</title>
+    <style>
+        .stack .card{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px 16px;
+            border-left: 4px solid;
+            margin-bottom: 8px;
+        }
+
+        .card .title{
+                font-size: 0.85rem;
+                font-weight: bold;
+                margin-bottom: 4px;
+            }
+        .card .body{
+            font-size: 0.75rem;
+        }
+
+        .card.info{
+            background-color: #ebf8ff;
+            border-left-color: #3182ce;
+            color:#2b6cb0 ;
+        }
+
+        .card.success{
+            background-color: #f0fff4;
+            border-left-color: #38a169;
+            color:#276749 ;
+        }
+
+        .card.warning{
+            background-color: #FFFBEB;
+            border-left-color: #3182ce;
+            color:#975A16;;
+        }
+    </style>
+</head>
+<body>
+    <div class="stack">
+        <div class="card info">
+            <p class="title">Info Alert</p>
+            <p class="body">This is an informational message for you</p>
+        </div>
+        <div class="card success">
+            <p class="title">Success Alert</p>
+            <p class="body">Your changes were saved successfully</p>
+        </div>
+        <div class="card warning">
+            <p class="title">Warning Alert</p>
+            <p class="body">Please review before you proceed</p>
+        </div>
+    </div>
+</body>
+</html>
