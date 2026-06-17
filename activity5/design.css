@@ -111,3 +111,45 @@ p{
     font-size: 0.82rem;
     color: #6b7280;
 }
+
+.price-card{
+    background: #ffffff;
+    border: 1px solid #e2e8fd;
+    border-radius: 10px;
+    padding: 24px 28px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.label{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:  #94A3BB;
+    margin-bottom: 8px;
+}
+.old-price{
+    font-size: 1rem;
+    color: #94A3BB;
+    text-decoration: line-through;
+    margin-bottom: 4px;
+
+}
+.new-price{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #16a34a;
+
+}
+
+.save-badge{
+    display: inline-block;
+    margin-top: 10px;
+    background: #dcfce7;
+    color: #16a34a;
+    font-size: 0.72rem;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
