@@ -122,6 +122,50 @@ p{
     line-height: 1.4;
 }
 
+.nav-menu {
+  display: block;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: #1E293B;
+  border-radius: 8px;
+  padding: 8px;
+  list-style-type: none;
+  margin: 0; 
+}
+
+.nav-link {
+  margin-bottom: 4px;
+}
+
+.nav-link:last-child {
+  margin-bottom: 0;
+}
+
+.nav-link a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial;
+  color: #94A3B8;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease, font-weight 0.2s ease;
+}
+
+.nav-link a:hover {
+  color: #FFFFFF;
+  background-color: #334155;
+}
+
+.nav-link.active-item a {
+  color: #38BDF8;
+  background-color: #0F172A;
+  font-weight: 600;
+}
+
+
+
 
 
 
