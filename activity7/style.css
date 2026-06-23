@@ -1,0 +1,122 @@
+/*Challenge 1- Evenly spaced Row*/
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Challenge 2- Centered vertical Stack*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  text-align: center;
+}
+
+/*Challenge 3- Bottom-aligned Row*/
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+.container .short {
+  height: 20px;
+}
+.container .tall {
+  height: 60px;
+}
+.container .medium {
+  height: 40px;
+}
+
+/*Challenge 4- Wrapping card grid*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  gap: 5px;
+}
+.container .card {
+  width: 100px;
+}
+
+/*Challenge 5- wrapped rows, spaced apart*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 360px;
+  height: 155px;
+}
+.container .card {
+  width: 155px;
+}
+
+/*Challenge 6 - navbar pattern*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Challenge 7- reversed order row*/
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/*Challenge 8- centered column, spcae items*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .small {
+  width: 20px;
+  border: 3px solid #000000;
+}
+.container .wide {
+  width: 60px;
+  border: 3px solid #000000;
+}
+.container .medium {
+  width: 40px;
+  border: 3px solid #000000;
+}
+/*Challenge 9-evenly gapped row, left packed*/
+.container {
+  display: flex;
+  justify-content: left;
+  gap: 12px;
+}
+/*Challenge 10- right aligned, top packed wrap*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 360px;
+  height: 200px;
+}
+.container .card {
+  width: 91px;
+}
+
+/*Challenge 11- layout A*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+/*Challenge 12- layout B*/
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/*Challenge 13- layout C*/
+/*Challenge 14- layout D*/
+/*Challenge 15- layout E*
+/*Challenge 16- layout F*/
+/*Challenge 17- layout G*/
+/*Challenge 18- layout H*/
+/*Challenge 19- layout I*/
+/*Challenge 20- layout J*/
