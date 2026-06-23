@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity 8</title>
     <style>
-      .card {
+      .profile {
         text-align: center;
-        width: 180px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 30px 10px;
+        font-family: Verdana;
+        padding: 20px;
         border: 1px solid gray;
         border-radius: 10px;
+        width: 150px;
       }
       .initials {
         background-color: rgb(85, 85, 241);
@@ -24,46 +24,70 @@
         font-weight: bold;
         font-size: 15px;
       }
-
       .role {
         color: gray;
         font-size: 13px;
-        line-height: 5%;
       }
 
-      .basic, .pro, .premium{
-        display: inline-block;
+      .pricing-card{
+        display: flex;
         justify-content: center;
-        text-align: center;
-        width: 100px;
-        height: 60px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 20px;
-        border: 1px solid gray;
-        border-radius: 15px;
+        gap: 7px;
+        margin: 12px;
       }
+
+      .card{
+        text-align: center;
+        width: 130px;
+        font-family: Verdana;
+        padding: 30px 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+      }
+
+      .tier{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 0.60rem;
+        margin-bottom: 10px;
+      }
+      .period{
+        color: gray;
+        font-size: 0.75rem;
+      }
+
+      .price{
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+
+      
+
+      
+
+      
     </style>
   </head>
   <body>
     <!--PROFILE CARD-->
-    <div class="card">
-      <span class="initials">JF</span>
-      <p class="name">Jhelianne Figuerres</p>
+    <div class="profile">
+      <span class="initials">JD</span>
+      <p class="name">Jane Dela Cruz</p>
       <p class="role">UIUX Designer</p>
     </div>
     <!--PRICING CARD ROW-->
     <div class="pricing-card">
-      <div class="basic">
-        basic
+      <div class="card one">
+        <div class="tier">basic</div>
         <div class="price">$299<span class="period">/mo</span></div>
       </div>
-      <div class="pro">
-        pro
-        <div class="price">$299<span class="period">/mo</span></div>
+      <div class="card two">
+        <div class="tier">pro</div>
+        <div class="price">$599<span class="period">/mo</span></div>
       </div>
-      <div class="premium">
-        premium
-        <div class="price">$299<span class="period">/mo</span></div>
+      <div class="card three">
+        <div class="tier">premium</div>
+        <div class="price">$999<span class="period">/mo</span></div>
       </div>
     </div>
   </body>
