@@ -1,0 +1,163 @@
+      .profile-card {
+        background-color: white;
+        font-family: Arial;
+        padding: 24px;
+        border: 1px solid gray;
+        border-radius: 12px;
+        width: 220px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .initials {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c63ff;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        margin-bottom: 4px;
+      }
+      .role {
+        color: gray;
+        font-size: 13px;
+      }
+
+      .pricing-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 4px;
+      }
+
+      .card {
+        background-color: white;
+        border: 1px solid gray;
+        width: 160px;
+        text-align: center;
+        padding: 30px 10px;
+        border-radius: 10px;
+        font-family: Arial;
+      }
+
+      .tier {
+        font-size: 12px;
+        margin-bottom: 8px;
+        color: gray;
+        text-transform: uppercase;
+      }
+      .period {
+        color: gray;
+        font-size: 0.75rem;
+      }
+
+      .price {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+
+      .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        border: 1px solid gray;
+        padding: 15px;
+        border-radius: 9px;
+        font-family: Arial;
+      }
+
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .links {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        color: gray;
+      }
+
+      .sign-up {
+        padding: 4px;
+        border: none;
+        color: white;
+        background-color: #6c63ff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .comment-block {
+        display: flex;
+        background-color: white;
+        border: 1px solid gray;
+        padding: 15px;
+        border-radius: 8px;
+        align-items: flex-start;
+        gap: 15px;
+        width: 350px;
+        margin: 0 auto;
+      }
+
+      .avatar {
+        width: 44px;
+        height: 44px;
+        background-color: orangered;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500px;
+        font-size: 15px;
+        flex-shrink: 0;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .commenter {
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+      }
+
+      .comment {
+        font-size: 14px;
+        color: gray;
+        line-height: 1.5;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 340px;
+        margin: 0 auto;
+      }
+
+      .container .tag {
+        justify-content: space-between;
+        background-color: beige;
+        color: #6c63ff;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 6px 14px;
+        flex-shrink: 0;
+      }

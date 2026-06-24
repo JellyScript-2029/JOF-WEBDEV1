@@ -4,77 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity 8</title>
-    <style>
-      .profile {
-        text-align: center;
-        font-family: Verdana;
-        padding: 20px;
-        border: 1px solid gray;
-        border-radius: 10px;
-        width: 150px;
-      }
-      .initials {
-        background-color: rgb(85, 85, 241);
-        color: #ffffff;
-        font-size: 15px;
-        padding: 15px;
-        border-radius: 40px;
-      }
-      .name {
-        font-weight: bold;
-        font-size: 15px;
-      }
-      .role {
-        color: gray;
-        font-size: 13px;
-      }
-
-      .pricing-card{
-        display: flex;
-        justify-content: center;
-        gap: 7px;
-        margin: 12px;
-      }
-
-      .card{
-        text-align: center;
-        width: 130px;
-        font-family: Verdana;
-        padding: 30px 10px;
-        border: 1px solid gray;
-        border-radius: 10px;
-      }
-
-      .tier{
-        color: gray;
-        text-transform: uppercase;
-        font-size: 0.60rem;
-        margin-bottom: 10px;
-      }
-      .period{
-        color: gray;
-        font-size: 0.75rem;
-      }
-
-      .price{
-        font-weight: bold;
-        font-size: 1.5rem;
-      }
-
-      
-
-      
-
-      
-    </style>
+    <link rel="stylesheet" href="design.css">
   </head>
   <body>
     <!--PROFILE CARD-->
-    <div class="profile">
-      <span class="initials">JD</span>
+    <div class="profile-card">
+      <div class="initials">JD</div>
       <p class="name">Jane Dela Cruz</p>
       <p class="role">UIUX Designer</p>
     </div>
+
     <!--PRICING CARD ROW-->
     <div class="pricing-card">
       <div class="card one">
@@ -89,6 +28,39 @@
         <div class="tier">premium</div>
         <div class="price">$999<span class="period">/mo</span></div>
       </div>
+    </div>
+
+    <!--NAVIGATOR BAR-->
+    <nav class="nav-bar">
+      <div class="logo">Brandly</div>
+      <ul class="links">
+        <li href="#">Home</li>
+        <li href="#">About</li>
+        <li href="#">Services</li>
+      </ul>
+      <button class="sign-up">Sign Up</button>
+    </nav>
+
+    <!--COMMENT BLOCK-->
+    <div class="comment-block">
+      <div class="avatar">MR</div>
+      <div class="header">
+        <div class="commenter">Mark Reyes</div>
+        <p class="comment">
+          This tutorial finally made flexbox click for me. The visual examples
+          really helped - thanks!
+        </p>
+      </div>
+    </div>
+
+    <!--WRAPPING TAG LIST-->
+    <div class="container">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Flexbox</span>
+      <span class="tag">Responsive Design</span>
+      <span class="tag">Git</span>
     </div>
   </body>
 </html>
