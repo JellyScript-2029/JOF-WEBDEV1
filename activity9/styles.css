@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Checkpoint 1: We need to apply the "turn children into a row" in two separate places because the 
+headers child is only the logo and the links. The child of the link is not the child of header anymore so that we need 
+another "turn children into row" again to turn the list inside into a row*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar__links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}

@@ -17,12 +17,15 @@
   display: flex;
   align-items: flex-end;
 }
+
 .container .short {
   height: 20px;
 }
+
 .container .tall {
   height: 60px;
 }
+
 .container .medium {
   height: 40px;
 }
@@ -34,6 +37,7 @@
   width: 400px;
   gap: 5px;
 }
+
 .container .card {
   width: 100px;
 }
@@ -46,6 +50,7 @@
   width: 360px;
   height: 155px;
 }
+
 .container .card {
   width: 155px;
 }
@@ -56,11 +61,13 @@
   justify-content: space-between;
   align-items: center;
 }
+
 /*Challenge 7- reversed order row*/
 .container {
   display: flex;
   flex-direction: row-reverse;
 }
+
 /*Challenge 8- centered column, spcae items*/
 .container {
   display: flex;
@@ -73,20 +80,24 @@
   width: 20px;
   border: 3px solid #000000;
 }
+
 .container .wide {
   width: 60px;
   border: 3px solid #000000;
 }
+
 .container .medium {
   width: 40px;
   border: 3px solid #000000;
 }
+
 /*Challenge 9-evenly gapped row, left packed*/
 .container {
   display: flex;
   justify-content: left;
   gap: 12px;
 }
+
 /*Challenge 10- right aligned, top packed wrap*/
 .container {
   display: flex;
@@ -95,6 +106,7 @@
   width: 360px;
   height: 200px;
 }
+
 .container .card {
   width: 91px;
 }
@@ -106,17 +118,168 @@
   justify-content: center;
   gap: 15px;
 }
+
 /*Challenge 12- layout B*/
 .container {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 110px;
+}
+
 /*Challenge 13- layout C*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .a {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.container .b {
+  width: 20px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.container .c {
+  width: 20px;
+  height: 40px;
+  border: 1px solid black;
+}
+
 /*Challenge 14- layout D*/
-/*Challenge 15- layout E*
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 360px;
+}
+
+.card {
+  display: flex;
+  width: 110px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+/*Challenge 15- layout E*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  width: 360px;
+  height: 220px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 155px;
+  height: 30px;
+  border: 1px solid black;
+}
+
 /*Challenge 16- layout F*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*Challenge 17- layout G*/
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
 /*Challenge 18- layout H*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.container .small {
+  width: 20px;
+}
+
+.container .wide {
+  width: 60px;
+}
+
+.container .medium {
+  width: 40px;
+}
+
 /*Challenge 19- layout I*/
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
 /*Challenge 20- layout J*/
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  width: 360px;
+  height: 200px;
+  gap: 16px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 91px;
+  height: 30px;
+  border: 1px solid black;
+}
