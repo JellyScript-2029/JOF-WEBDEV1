@@ -11,74 +11,127 @@ body{
 /* Checkpoint 1: We need to apply the "turn children into a row" in two separate places because the 
 headers child is only the logo and the links. The child of the link is not the child of header anymore so that we need 
 another "turn children into row" again to turn the list inside into a row*/
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 50px;
-    border-bottom: 1px solid lightgray;
+    padding: 25px 60px;
+    background-color: #FFF9F2 ;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar__logo{
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
 }
 
 .navbar__links {
     display: flex;
-    list-style: none;
     gap: 40px;
+    font-size: 0.95rem;
+    list-style: none;
+    font-weight: 500;
 }
 
 .hero{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 65px;
     margin: 0 auto;
-    padding: 100px 50px;
+    padding: 100px 60px;
+    background-color: #FFF9F2 ;
+}
+
+.hero__text {
+    flex: 1.2;
 }
 
 .hero__eyebrow{
     font-size: 0.75rem;
     text-transform: uppercase;
     margin-bottom: 12px;
+    color: #B85C37 ;
+    font-weight: bold;
 }
 
 .hero__title{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
     line-height: 1.15;
     margin-bottom: 24px ;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
 }
 
 .hero__desc{
-    font-size: 1.15rem;
-    margin-bottom: 30px ;
-     line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 35px ;
     max-width: 480px;
 }
 
 .btn{
-    width: 70px;
-    background-color: black;
+    display: inline-block;
+    background-color: #111111;
     color: white;
-    padding: 10px;
-    font-size: 0.75rem;
-    text-decoration-line: none;
-    font-weight: 700;
+    padding: 14px 28px;
+    font-size: 0.95rem;
+    border-radius: 2px;
+    font-weight: 500 ;
 }
-
+.hero__panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
 .card-label{
     text-transform: uppercase;
-    font-size: 0.75rem;
-    gap: 16px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
 }
 .card-value{
     font-size: 1rem;
     font-weight: bold;
 }
-.hero__panel{
-    display: flex;
-    flex-direction: column;
-    gap: 16px ;
-    flex: 1;
+
+.info-card {
+    background-color: #FFFFFF;
+    border: 1px solid lightgrey;
+    padding: 20px 24px;
+    border-radius: 2px;
+    .card-label{
+        color: lightgrey;
+    }
 }
+
+.info-card--accent {
+    background-color: #B85C37;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 2px;
+    .card-label{
+        color: #E0E0E0;
+    }
+}
+
+.skills{
+    background-color: white;
+    
+}
+
+
+
+
 
 
 
